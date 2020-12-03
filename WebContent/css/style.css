@@ -53,6 +53,10 @@ tr.row0 {
     background-color: #ffffff;
 }
 
+select {
+    height: 30px;
+}
+
 p {
     margin-top: 15px;
     margin-bottom: 15px;
