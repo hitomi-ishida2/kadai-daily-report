@@ -47,7 +47,7 @@ public class EmployeeCreateServlet extends HttpServlet {
             e.setPassword(
                     EncryptUtil.getPasswordEncrypt(
                             request.getParameter("password"),
-                            (String)this.getServletContext().getAttribute("peppar")
+                            (String)this.getServletContext().getAttribute("pepper")
                             )
                     );
             e.setAdmin_flag(Integer.parseInt(request.getParameter("admin_flag")));
